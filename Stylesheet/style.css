@@ -1,0 +1,50 @@
+/*estilo do cabeçalho*/
+header {
+    text-align: center; 
+    padding: 20px;
+    background-color: #f5f5dc;
+    font-family: Helvetica;
+ }
+ /*estilo do menu de navegação*/
+ nav {
+    text-align: center;
+    word-spacing: 30px;
+    Padding: 10px;
+ }
+ /*criando o layout de duas colunas*/
+ *{
+    box-sizing: border-box;
+ }
+ .conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 70px;
+    background-color: aliceblue;
+ }
+ /*footer*/
+ footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f5dc;
+    font-family: Helvetica;
+ }
+ .social{
+    text-align: center;
+    word-spacing: 30px;
+    padding: 10px;
+ }
+ /*imagem de perfil e estilo de cabeçalho*/
+ .profile img {
+    width: 120px;
+    display: block;
+ }
+ .profile h1 {
+    text-align: center;
+ }
+
+ a{
+    text-decoration: none;
+ }
